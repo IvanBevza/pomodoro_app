@@ -1,0 +1,11 @@
+# The default configuration:
+# https://github.com/sds/overcommit/blob/master/config/default.yml
+# Complete list of hooks:
+# https://github.com/sds/overcommit/tree/master/lib/overcommit/hook
+# Complete list of options to customize hooks:
+# https://github.com/sds/overcommit#configuration
+
+PreCommit:
+  RuboCop:
+    enabled: true
+    on_warn: fail # Treat all warnings as failures
